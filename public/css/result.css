@@ -1,0 +1,148 @@
+body {
+
+    background-color: black;
+
+}
+
+h1 {
+    font-family: monospace;
+    color: white;
+    font-size: 40px;
+    margin-top: -8px;
+
+}
+
+img {
+
+    margin-bottom: 20px;
+
+}
+
+h2 {
+    font-family: "Lucida Console", Monaco, monospace;
+    color: white;
+    font-size: 2em;
+
+}
+
+#smallInfo {
+    margin-top: -40px;
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 0.3rem;
+    align-items: flex-start;
+    width: 100%;
+
+
+}
+
+#content {
+    display: flex;
+
+}
+
+#left {
+
+    width: 300px;
+
+}
+
+#right {
+    margin-left: 20px;
+    /* margin-top: 90px; */
+    position: relative;
+
+}
+
+#smallInfo * {
+
+    color: grey;
+    font-size: 20px;
+
+}
+
+.dot, .arrow h1 {
+
+    display: none;
+
+}
+
+
+#directorDiv {
+    width: 100%px;
+    border-top: 5px solid white;
+
+
+}
+
+#actorDiv {
+
+    width: 100%px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+
+}
+
+#reviews div {
+
+    display: none;
+
+}
+
+#reviews h1 {
+
+
+    font-family: monospace;
+
+    height: 30px;
+    margin-top: 10px;
+
+}
+
+#reviews h2 {
+
+    height: 20px;
+
+
+}
+
+#plot {
+
+    margin-top: 0px;
+
+}
+
+
+
+#title {
+
+    width: 305px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.nb {
+
+    border-bottom: 2px solid grey;
+
+
+}
+
+
+
+
+.icon {
+
+    height: 50px;
+    margin-bottom: 0px;
+    margin-top: 26.56px;
+    /* padding-right: 10px; */
+}

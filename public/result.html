@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Result</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/result.css ">
+</head>
+
+<body>
+
+    <h1 id="loading">Loading Content...</h1>
+    <h1 id="title"></h1>
+    <div id="smallInfo">
+        <h2 id="date"></h2>
+        <h2 class="dot">&#8226</h2>
+        <h2 id="rating"></h2>
+        <h2 class="dot">&#8226</h2>
+        <h2 id="length"></h2>
+    </div>
+    <div id="content">
+        <div id="left">
+
+            <img id="poster">
+        </div>
+        <div id="right">
+
+            <h2 id="plot"></h2>
+            <div id="directorDiv">
+                <h2 id="directors"></h2>
+            </div>
+            <div id="actorDiv">
+                <h2 id="actors"></h2>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    
+
+    </div>
+
+
+    <div id="reviews">
+        <div id="RT">
+            <h1>Rotten Tomatoes</h1>
+            <h2 id="RT_rating"></h2>
+            <h2 id="RT_bar"></h2>
+
+        </div>
+        <div id="IMDB">
+            <h1>IMDB Rating</h1>
+            <h2 id="IMDB_rating"></h2>
+            <h2 id="IMDB_bar"></h2>
+
+        </div>
+
+        <div id="MT">
+            <h1>Metacritic Rating</h1>
+            <h2 id="MT_rating"></h2>
+            <h2 id="MT_bar"></h2>
+
+        </div>
+
+        <div id="IMD">
+            <h1>The Internet Movie Database</h1>
+            <h2 id="IMD_rating"></h2>
+            <h2 id="IMD_bar"></h2>
+
+        </div>
+        <h2 id="arrow" class="arrow" style="font-size: 30px;" onclick="showReviews()">▼</h2>
+
+    </div>
+    <script src="/javascript/result.js"></script>
+</body>
+
+</html>

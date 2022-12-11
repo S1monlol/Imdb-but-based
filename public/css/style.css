@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+}
+
+.image {
+    width: 200px;
+    max-width: 200px;
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: center center;
+    border-radius: 10px;
+}
+
+#title {
+    height: 100px;
+}
+
+#title h1,
+h2 {
+    color: white;
+    text-decoration: none;
+    background-color: none;
+    font-family: 'Trispace';
+}
+
+#searchQuery {
+    color-scheme: dark;
+}
+
+#searchButton {
+
+    color-scheme: dark;
+
+}
+
+
+#error {
+    text-align: center;
+
+}
+
+
+.result {
+    overflow: hidden;
+
+    margin-top: 20px;
+    height: 300px;
+    width: 210px;
+    max-width: 210px;
+
+
+
+    /* border: 1px solid white; */
+
+}
+
+.devider {
+
+    margin-top: 20px;
+    height: 40px;
+    border-bottom: 1px solid white;
+
+
+
+}
+
+.grid-container {
+
+    scrollbar-color: black;
+    display: grid;
+    /* grid-template-columns: 0fr; */
+
+    min-width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 0fr;
+    grid-gap: 50px;
+    overflow-x: auto;
+
+}
+
+
+h1 {
+
+    color: white;
+
+
+}
+
+h2 {
+
+
+    text-align: center;
+    color: white;
+
+}
