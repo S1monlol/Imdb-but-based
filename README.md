@@ -20,10 +20,10 @@ Build the Docker image using docker build -t imdb-but-based .
 Set the API_KEY environment variable with your OMDB API key  
 Run the Docker container using docker run -p 8080:8080 imdb-but-based  
 Open http://localhost:8080 in your web browser to access the site  
-Using Docker to run the project ensures that you have a consistent and isolated environment for the project, and makes it easier to deploy the project to other machines  
+Using Docker to run the project ensures that you have a consistent and isolated environment for the project, and makes it easier to deploy the project to other machines
 
 
-#Usage
+# Usage  
 Once you have the website running, you can use the search bar on the homepage to search for movies. The search results will be displayed on the same page. Clicking on a movie title will take you to a details page with more information about the movie  
 
 # Contributing
