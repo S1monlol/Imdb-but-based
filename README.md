@@ -4,7 +4,7 @@ Imdb But Based is a website that serves as an alternative frontend to the popula
 # Installation
 To run the project locally, you will need to have Node.js and NPM installed on your machine.
 
-Clone this repository using `git clone https://github.com/yourusername/imdb-but-based.git`  
+Clone this repository using `git clone https://github.com/S1monlol/Imdb-but-based.git`  
 Change into the project directory using `cd imdb-but-based`  
 Install dependencies using `npm install`  
 Set the API_KEY environment variable with your OMDB API key  
@@ -14,7 +14,7 @@ Open http://localhost:8080 in your web browser to access the site
 # Docker Install
 To run the project using Docker, you will need to have Docker installed on your machine.
 
-Clone this repository using `git clone https://github.com/yourusername/imdb-but-based.git`  
+Clone this repository using `git clone https://github.com/S1monlol/Imdb-but-based.git`  
 Change into the project directory using `cd imdb-but-based`  
 Build the Docker image using `docker build -t imdb-but-based .`  
 Set the API_KEY environment variable with your OMDB API key  
