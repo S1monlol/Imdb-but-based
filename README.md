@@ -17,8 +17,8 @@ To run the project using Docker, you will need to have Docker installed on your 
 Clone this repository using `git clone https://github.com/S1monlol/Imdb-but-based.git`  
 Change into the project directory using `cd imdb-but-based`  
 Build the Docker image using `docker build -t imdb-but-based .`  
-Set the API_KEY environment variable with your OMDB API key  
-Run the Docker container using `docker run -p {PORT}:8080 imdb-but-based`  
+Set the API_KEY environment variable with your OMDB API key in .env    
+Run the Docker container using `docker run -p {PORT}:8080 --env-file .env imdb-but-based`  
 Open http://localhost:{PORT} in your web browser to access the site  
 
 # Usage  
