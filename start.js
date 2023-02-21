@@ -2,13 +2,13 @@
 let express = require('express');
 const https = require('https');
 const app = express();
-let api_key = ''
+
+
+// get api key from env var
+const api_key = process.env.API_KEY;
 
 // serve all public files
 app.use(express.static(__dirname + '/public'));
-
-
-
 
 app.get('/search', function (req, res) {
 
@@ -125,7 +125,7 @@ app.get('/imdb', function (req, res) {
 
 
 
-app.listen(8089, function () {
+app.listen(8080, function () {
     console.log('Started');
 });
 
